@@ -1,4 +1,4 @@
-let playerSelection = prompt("Rock Paper Scissors");
+// let playerSelection = prompt("Rock Paper Scissors");
 // let playerSelection = "Rock";
 const computerChoice = ["Rock", "Paper", "Scissors"];
 let playerWin = 0;
@@ -37,13 +37,6 @@ function playRound(playerSelection, computerSelection) {
     // return "You Lost " + computerSelection + " defeats " + playerSelection;
 }
 
-for (let i=0;i<5;i++){
-    playRound();
-}
 
 
-console.log("Computer picked " + computerSelection);
-console.log("You Picked " + playerSelection);
-console.log(playRound());
-console.log(playerWin);
-console.log(ComputerWin)
+
